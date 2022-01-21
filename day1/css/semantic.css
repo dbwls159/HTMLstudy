@@ -1,3 +1,6 @@
+body {
+  text-align: center;
+}
 header {
   border: 3px solid;
   margin: 2px;
@@ -5,7 +8,7 @@ header {
   font-weight: bold;
   padding-top: 1em;
   padding-bottom: 1em;
-  width: 72%;
+  width: 50%;
   text-align: center;
 }
 
@@ -13,24 +16,34 @@ section {
   border: 3px solid;
   margin: 2px;
   text-align: center;
-  font-size: 1.5em;
   height: 5em;
   padding: 1em;
-  width: 45%;
+  width: 35%;
 }
 article {
-  position: absolute;
   border: 3px solid;
-  margin: 1em;
-  width: 40%;
+  margin: 2px auto;
+  height: 50px;
   align-items: center;
 }
 #content {
+  font-size: 1.5em;
   display: flex;
+  font-weight: bold;
 }
 aside {
   border: 3px solid;
-  height: 5em;
   margin: 2px;
-  width: 23%;
+  width: 10%;
+  font-weight: bold;
+  padding-top: 1em;
+}
+footer {
+  border: 3px solid;
+  width: 50%;
+  font-size: 1.5em;
+  margin: 2px;
+  font-weight: bold;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
